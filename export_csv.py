@@ -2,7 +2,7 @@ import psycopg2
 import pandas as pd
 import warnings
 
-# This hides that annoying SQLAlchemy warning
+
 warnings.filterwarnings('ignore', category=UserWarning)
 
 print("Connecting to database...")
@@ -16,7 +16,7 @@ try:
         port="5432"
     )
 
-    # The updated SQL query (check_in_time removed)
+    
     sql = """
     SELECT 
         p.patient_id, 

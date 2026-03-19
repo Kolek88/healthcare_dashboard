@@ -1,0 +1,21 @@
+patient_id,name,age,gender,visit_id,wait_time_minutes
+1,Alice Johnson,29,Female,1,45
+2,Bob Smith,45,Male,2,15
+1,Alice Johnson,29,Female,3,10
+3,Charlie Brown,12,Male,4,120
+4,Diana Prince,30,Female,5,30
+5,Evan Wright,76,Male,6,5
+2,Bob Smith,45,Male,7,60
+6,Fiona Green,55,Female,8,25
+7,George Hall,60,Male,9,40
+8,Hannah White,22,Female,10,90
+9,Ian Black,34,Male,11,35
+10,Julia Roberts,41,Female,12,20
+3,Charlie Brown,12,Male,13,15
+5,Evan Wright,76,Male,14,10
+4,Diana Prince,30,Female,15,45
+1,Alice Johnson,29,Female,16,5
+7,George Hall,60,Male,17,20
+8,Hannah White,22,Female,18,60
+9,Ian Black,34,Male,19,50
+2,Bob Smith,45,Male,20,10

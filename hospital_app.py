@@ -28,7 +28,7 @@ try:
     df['status'] = df['wait_time_minutes'].apply(categorize_wait)
     
     # Get the top 10 longest wait times
-    top_10_waits = df.sort_values(by='wait_time_minutes', ascending=False).head(10)
+    top_10_waits = df.sort_values(by='wait_time_minutes', ascending=False).drop_duplicates(subset=['name']).head(10)
 
     # 4. Dashboard Layout
     col1, col2 = st.columns([2, 1])
